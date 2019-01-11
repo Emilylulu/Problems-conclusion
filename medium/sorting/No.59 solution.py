@@ -1,5 +1,6 @@
     def threeSumClosest(self, numbers, target):
         # write your code here
+        # one iterator plus two pointer
         length = len(numbers)
         if length < 3:
             return sum(numbers)
