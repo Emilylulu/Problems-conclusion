@@ -1,2 +1,2 @@
 # Problems-conclusion
-conclude some problems in lint code
+conclude some problems with solution in lint code
