@@ -1,5 +1,6 @@
     def sortColors(self, nums):
         # write your code here
+        # two pointer plus iterator
         zero = 0
         two = len(nums) - 1
         one = 0
