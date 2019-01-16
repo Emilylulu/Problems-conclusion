@@ -11,3 +11,15 @@
         self.preorder(root.left, result)
         self.preorder(root.right, result)
         
+    def postorderTraversal(self, root):
+        # write your code here
+        # left right root
+        result = []
+        self.postorder(root,result)
+        return result
+    def postorder(self,root,result):
+        if not root:
+            return
+        self.postorder(root.left,result)
+        self.postorder(root.right,result)
+        result.append(root.val)
