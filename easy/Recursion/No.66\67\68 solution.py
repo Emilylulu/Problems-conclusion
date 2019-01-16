@@ -24,7 +24,6 @@
         result.append(root.val)
         self.inorder(result,root.right)
     
-    
     def postorderTraversal(self, root):
         # write your code here
         # left right root
