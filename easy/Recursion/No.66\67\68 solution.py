@@ -10,7 +10,21 @@
         result.append(root.val)
         self.preorder(root.left, result)
         self.preorder(root.right, result)
-        
+    
+    def inorderTraversal(self, root):
+        # write your code here
+        # left root right
+        result=[]
+        self.inorder(result,root)
+        return result
+    def inorder(self,result,root):
+        if not root:
+            return
+        self.inorder(result,root.left)
+        result.append(root.val)
+        self.inorder(result,root.right)
+    
+    
     def postorderTraversal(self, root):
         # write your code here
         # left right root
