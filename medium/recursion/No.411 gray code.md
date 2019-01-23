@@ -8,7 +8,7 @@ Given a non-negative integer n representing the total number of bits in the code
 Example
 Given n = 2, return [0,1,3,2]. Its gray code sequence is:
 
-00 - 0
-01 - 1
-11 - 3
-10 - 2
+00 - 0<br>
+01 - 1<br>
+11 - 3<br>
+10 - 2<br>
