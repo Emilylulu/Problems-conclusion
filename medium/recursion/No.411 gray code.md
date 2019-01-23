@@ -12,3 +12,7 @@ Given n = 2, return [0,1,3,2]. Its gray code sequence is:
 01 - 1<br>
 11 - 3<br>
 10 - 2<br>
+Notice
+For a given n, a gray code sequence is not uniquely defined.
+
+[0,2,3,1] is also a valid gray code sequence according to the above definition.
