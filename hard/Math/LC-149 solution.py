@@ -17,7 +17,8 @@
                 else:
                     temp1 = points[i].x-points[j].x
                     temp2 = points[i].y-points[j].y
-                    # s = float(temp2) / float(temp1) divide is not enough since sometimes coordinate is too big so that lose precision.
+                    # s = float(temp2) / float(temp1) divide is not enough since sometimes coordinate
+                    # is too big so that lose precision.
                     # use string to record this slope info 
                     s = self.maxDivide(temp1, temp2)
                 
@@ -41,7 +42,6 @@
             return '0'
         if (num2 % num1 == 0):
             return str(num2/num1)
-        
         divide = 1
         # if two nums < 0, negative divide negative should be positive
         if num1 < 0 and num2 < 0:
