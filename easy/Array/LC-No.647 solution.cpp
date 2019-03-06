@@ -3,7 +3,7 @@
         if(size <= 1) return size; // handle if size <= 1
         int result = 0;
         int i = 0;
-        int temp = 1;
+        int temp = 1; // if nums is not empty, then increasing sequence start with 1.
         
         while(i<size - 1){
             if(nums[i+1] <= nums[i]){ // do not forget increasing sequence can not be equal
