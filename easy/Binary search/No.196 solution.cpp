@@ -14,7 +14,7 @@
         sort(nums.begin(),nums.end()); // if the nums already sort, can use binary search
         int start = 0;
         int end = nums.size()-1;
-        while(start <= end && start <= nums.size()){
+        while(start <= end){ // has to use =, in this way, handle if missing value is n.
             int mid = (end+start)/2;
             if(nums[mid] > mid) end = mid - 1;
             if(nums[mid] <= mid) start = mid + 1;
