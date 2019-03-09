@@ -1,0 +1,30 @@
+### Description
+Design a data structure that supports all following operations in average O(1) time.
+
+insert(val): Inserts an item val to the set if not already present.<br>
+remove(val): Removes an item val from the set if present.<br>
+getRandom: Returns a random element from current set of elements. Each element must have the same probability of being returned.<br>
+### Example
+// Init an empty set.<br>
+RandomizedSet randomSet = new RandomizedSet();<br>
+
+// Inserts 1 to the set. Returns true as 1 was inserted successfully.<br>
+randomSet.insert(1);<br>
+
+// Returns false as 2 does not exist in the set.<br>
+randomSet.remove(2);<br>
+
+// Inserts 2 to the set, returns true. Set now contains [1,2].<br>
+randomSet.insert(2);<br>
+
+// getRandom should return either 1 or 2 randomly.<br>
+randomSet.getRandom();<br>
+
+// Removes 1 from the set, returns true. Set now contains [2].<br>
+randomSet.remove(1);<br>
+
+// 2 was already in the set, so return false.<br>
+randomSet.insert(2);<br>
+
+// Since 2 is the only number in the set, getRandom always return 2.<br>
+randomSet.getRandom();<br>
